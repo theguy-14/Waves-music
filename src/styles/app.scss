@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //background-color: rgb(36, 33, 33);
+}
+h1,h2,h3 {
+    color: rgb(44, 40, 40)
+}
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.App {
+    transition: all 0.5s ease;
+}
+.library-active {
+    margin-left: 30%;
+}
+  
+
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav"
