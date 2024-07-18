@@ -29,7 +29,7 @@ const timeUpdateHandler = (e) => {
   const roundedCurrent = Math.round(current);
   const roundedDuration = Math.round(duration);
   const animation = Math.round((roundedCurrent / roundedDuration)*100);
-  setSongInfo({...songInfo, currentTime: current, duration, animationPercentage: animation});
+  setSongInfo({...songInfo, currentTime: current, duration: duration, animationPercentage: animation});
 };
 const songEndHandler = async () => {
   let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
@@ -46,7 +46,7 @@ const songEndHandler = async () => {
   return (
     <div className={`App ${libraryStatus ? "library-active" : ""}`}>
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus}/>
-      <Song currentSong={currentSong}/>
+      <Song currentSong={currentSong} isPlaying={isPlaying}/>
       <Player
         audioRef={audioRef}
         setIsPlaying={setIsPlaying}
