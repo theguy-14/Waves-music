@@ -18,7 +18,7 @@ function music_data() {
             id: uuidv4(),
             active: false,
             color: ["#151048","#BA1230"],
-            audio: "https://hindi2.djpunjab.app/load/L4q4ukxmKLEOI2P8-81iFg==/Dil%20Mere.mp3"
+            audio: "https://pagalfree.com/musics/128-Dil Mere - Aalas Ka Pedh 128 Kbps.mp3"
         },
         {
             name: "Jee Le Zaraa",
@@ -54,7 +54,7 @@ function music_data() {
             id: uuidv4(),
             active: false,
             color: ["#7D4945","#1A0E18"],
-            audio: "https://hindi2.djpunjab.app/load-hindi/umo9elw6l2sZJ7GmbPp3Uw==/Ek%20Raat.mp3"
+            audio: "https://pagalsongs.com.in/files/download?id=10084"
         }
     ];
 }

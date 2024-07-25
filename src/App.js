@@ -34,14 +34,7 @@ const timeUpdateHandler = (e) => {
 const songEndHandler = async () => {
   let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
   await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-  audioRef.current.pause();
-  if(isPlaying) {
-    setTimeout(() => {
-      audioRef.current.play().catch((error) => {
-        console.error('Error playing audio:', error);
-      });
-    }, 0);
-  }
+  if(isPlaying) audioRef.current.play();
 };
   return (
     <div className={`App ${libraryStatus ? "library-active" : ""}`}>
