@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Waves-music/static/css/main.4ec74400.css",
-    "main.js": "/Waves-music/static/js/main.3339e7b6.js",
+    "main.js": "/Waves-music/static/js/main.b393b81d.js",
     "static/js/453.ed3810f9.chunk.js": "/Waves-music/static/js/453.ed3810f9.chunk.js",
     "index.html": "/Waves-music/index.html",
     "main.4ec74400.css.map": "/Waves-music/static/css/main.4ec74400.css.map",
-    "main.3339e7b6.js.map": "/Waves-music/static/js/main.3339e7b6.js.map",
+    "main.b393b81d.js.map": "/Waves-music/static/js/main.b393b81d.js.map",
     "453.ed3810f9.chunk.js.map": "/Waves-music/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ec74400.css",
-    "static/js/main.3339e7b6.js"
+    "static/js/main.b393b81d.js"
   ]
 }
