@@ -45,7 +45,7 @@ function music_data() {
             id: uuidv4(),
             active: false,
             color: ["#A96D65","#7F7069"],
-            audio: "https://koshalworld.com/files/download/id/40126"
+            audio: "https://www.pagalworld.com.so/files/download/type/128/id/22091"
         },
         {
             name: "Ek Raat",
@@ -55,6 +55,15 @@ function music_data() {
             active: false,
             color: ["#7D4945","#1A0E18"],
             audio: "https://pagalsongs.com.in/files/download?id=10084"
+        },
+        {
+            name: "Samjho Na",
+            artist: "Aditya Rikhari",
+            cover: "https://www.pagalworld.com.so/uploads/thumb/sft31/15440_4.jpg",
+            id: uuidv4(),
+            active: false,
+            color: ["#958D9A","#685597"],
+            audio: "https://www.pagalworld.com.so/files/download/type/128/id/15440"
         }
     ];
 }
