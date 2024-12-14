@@ -27,7 +27,7 @@ function music_data() {
             id: uuidv4(),
             active: false,
             color: ["#8E938F","#5F7372"],
-            audio: "https://pagalfree.com/musics/128-Jee Le Zaraa - Talaash 128 Kbps.mp3"
+            audio: "https://cdn.pagalworld.us/songs/old/Talaash-Jee Le Zaraa.mp3"
         },
         {
             name: "Saajna",
@@ -59,7 +59,7 @@ function music_data() {
         {
             name: "Samjho Na",
             artist: "Aditya Rikhari",
-            cover: "https://www.pagalworld.com.so/uploads/thumb/sft31/15440_4.jpg",
+            cover: "https://lh3.googleusercontent.com/VtXq1g11gvZ3TYfzul7RimkulFWisPARNMW0UeNa0r6x6-zzKtcRo9Sh9hG-2U0Ujw6EKs5SnasE_OIT=w544-h544-l90-rj",
             id: uuidv4(),
             active: false,
             color: ["#958D9A","#685597"],
