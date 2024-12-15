@@ -1,6 +1,6 @@
 # Getting Started with Music Player
 
-Live app [here](https://theguy-14.github.io/Waves-music/)
+Live app [here]( https://theguy-14.github.io/Waves-music/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
